@@ -21,3 +21,6 @@
  * concat
  */
 
+function isTrue(x){
+   return x === true
+}
