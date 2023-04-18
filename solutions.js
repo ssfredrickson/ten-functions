@@ -24,3 +24,46 @@
 function isTrue(x){
    return x === true
 }
+
+function isFalse(x) {
+   return x === false
+}
+
+function not(x) {
+   return !x
+}
+
+function addOne(x) {
+   parseFloat(x)
+   return ++x
+}
+
+function isEven(x) {
+   return x % 2 === 0
+}
+
+console.log(isEven(false));
+
+function isIdentical(x , y) {
+   if (x === y) {
+      return true
+   } else return false
+}
+
+function isEqual(x , y) {
+   if (x == y) {
+      return true
+   } else return false
+}
+
+function or(x , y){
+   return x || y
+}
+
+function and(x , y) {
+   return x && y
+}
+
+function concat(x , y) {
+   return x.toString() + y.toString()
+}
